@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="ScientificCalculator.App/ScientificCalculator.App.csproj" Id="68bf34f6-1b65-49ac-b019-791bc64f936e" />
+  <Project Path="ScientificCalculator.CalculatorCore/ScientificCalculator.CalculatorCore.csproj" Id="a05d6d51-1ca1-4925-9a64-4250b2cb9439" />
+  <Project Path="ScientificCalculator.DataLayer/ScientificCalculator.DataLayer.csproj" Id="0f33cd9c-f03a-41c8-9e69-27b6246e2b29" />
+</Solution>
