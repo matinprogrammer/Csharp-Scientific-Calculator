@@ -44,7 +44,7 @@ namespace ScientificCalculator.CalculatorCore
             }
             else if (args.Count == 2)
             {
-                return (float)Math.Log(args[0], args[1]);
+                return (float)Math.Log(args[1], args[0]);
             }
             else
             {
@@ -70,7 +70,7 @@ namespace ScientificCalculator.CalculatorCore
         {
             if (args.Count != 2)
                 throw new ArgumentException("pow requires exactly two arguments.");
-            return (float)Math.Pow(args[0], args[1]);
+            return (float)Math.Pow(args[1], args[0]);
         }
 
         public static float Max(List<float> args)
